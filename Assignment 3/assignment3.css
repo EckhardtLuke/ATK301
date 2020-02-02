@@ -1,0 +1,61 @@
+a:link {
+  color:#FF0000;
+}
+
+a:visited {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #E9F155;
+}
+
+h1 {
+  color: #0000FF;
+  background-color: #00FF00;
+}
+
+h2 {
+  color: #FF0000;
+  background-color: #E9F155;
+}
+
+h3 {
+  color: #E51938;
+  background-color: #E9E090;
+}
+
+h4 {
+  color: #42E7EA;
+  background-color: #A92CA9;
+}
+
+h5 {
+  color: #231EBC;
+  background-color: #1EBC68;
+}
+
+.arttinfo {
+  color: #BF3FBF;
+  background-color: #3FBF3F;
+}
+
+p {
+  color: #1E1ED6;
+  background-color: #7E7EF0;
+}
+
+#ulist {
+  color: #BDB713;
+  background-color: #2EBEEA;
+}
+
+.spantest {
+  color: #C80DBB;
+  background-color: #0DC855;
+}
+
+#divtest {
+  color: #637269;
+  background-color: #000000;
+}
