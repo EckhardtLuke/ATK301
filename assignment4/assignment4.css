@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background-image: url(backgroundimage.jpeg);
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+.header {
+  color: #F28416;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.imgbox {
+  border: 15px solid #000000;
+  padding: 10px;
+}
+
+.textalign {
+  text-align: center;
+}
+
+.textjustify {
+  text-align: justify;
+}
