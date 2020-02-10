@@ -1,0 +1,46 @@
+.background1 {
+  background-color: #80F380;
+}
+
+#backgroundblue {
+  background-color: #3FBFBF;
+}
+
+.taxi {
+  color: #ff0000;
+}
+
+.inlinecolor {
+  color: #D5D51A;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+h2 {
+  color: #0000ff;
+}
+
+h3 {
+  background-color: #F0F018;
+}
+
+h4 {
+  color: #F0F018;
+  background-color: #42B242;
+}
+
+h5 {
+  color: #7F1DE1;
+}
+
+a:link {
+  color: #209259;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF0000;
+  text-decoration: underline;
+}
