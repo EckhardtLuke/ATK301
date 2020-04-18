@@ -20,18 +20,33 @@ body {
   padding: 0;
 }
 
+.roundedbox {
+  border: 2px solid  #8CCAF9;
+  border-radius: 24px;
+}
+
 h1 {
   grid-column: span 3;
   background-color: #8CCAF9;
-  font-family: helvetica, sans-serif;
   font-size: 48px;
   padding: 12px;
   text-align: center;
   font-weight: normal;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px 5px #000; /* x, y, blur, color */
 }
 
 nav {
   grid-column: span 9;
+}
+
+nav a {
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+nav a:hover {
+  background-color: #E01F1C;
+  color: black;
 }
 
 nav ul {
@@ -49,13 +64,14 @@ nav li {
 
 nav li a {
   background-color: #8CCAF9;
-  font-family: helvetica, sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 48px;
   text-decoration: none;
   display: block;
   color: black;
   padding: 12px;
   font-style: normal;
+    text-shadow: 2px 2px 5px #000; /* x, y, blur, color */
 }
 
 main {
@@ -73,7 +89,7 @@ section {
 }
 
 section h2 {
-  font-family: helvetica, sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 48px;
   margin: 0;
   padding: 0;
@@ -88,4 +104,9 @@ footer {
   margin-top: 24px;
   font-size: 24px;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
