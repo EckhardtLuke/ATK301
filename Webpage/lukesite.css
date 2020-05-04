@@ -7,7 +7,7 @@ body {
   width: 1200px;
   border: 1px solid black;
   padding: 24px;
-  background-color: #ffffff;
+  background-color: #676060;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
@@ -48,19 +48,19 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #E01F1C;
+  background-color: #5A4B4B;
   color: black;
 }
 
 nav ul {
   list-style: none;
-  margin-left: 12px;
+  margin-left: 9px;
   padding: 0;
 }
 
 nav li {
   display: inline-block;
-  margin: 36px;
+  margin: 24px;
   margin-left: 84px;
   margin-right: 0;
 }
@@ -112,4 +112,11 @@ footer {
 a {
   text-decoration: none;
   color: black;
+}
+
+.gallery {
+  display:inline-block;
+  grid-column: span 12;
+  padding: 24px;
+  margin: 12px;
 }
