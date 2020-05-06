@@ -74,7 +74,7 @@ nav li a {
   color: black;
   padding: 12px;
   font-style: normal;
-    text-shadow: 2px 2px 5px #000; /* x, y, blur, color */
+  box-shadow: 5px 5px 0 black;
 }
 
 main {
@@ -89,6 +89,7 @@ section {
   background-color: #8CCAF9;
   padding: 12px;
   margin: 0;
+  font-size: 24px;
 }
 
 section h2 {
@@ -107,6 +108,7 @@ footer {
   margin-top: 24px;
   font-size: 24px;
   text-align: center;
+  box-shadow: 5px 5px 0 black;
 }
 
 a {
