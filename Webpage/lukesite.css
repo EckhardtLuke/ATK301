@@ -1,3 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #3E3E3E;
+}
 body {
   background-color: #999999;
 }
@@ -13,16 +24,8 @@ body {
   grid-column-gap: 24px;
 }
 
-#mainimg {
-  grid-column: span 12;
-  margin-left: 24px;
-  margin-bottom: 24px;
-  padding: 0;
-}
-
 .roundedbox {
-  border: 2px solid  #8CCAF9;
-  border-radius: 24px;
+  box-shadow: 5px 5px 0 black;
 }
 
 h1 {
@@ -31,16 +34,52 @@ h1 {
   padding: 12px;
   text-align: center;
   font-weight: normal;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   text-shadow: 2px 2px 5px #000; /* x, y, blur, color */
 }
 
 header {
   grid-column: span 3;
+  text-align: left;
 }
 
 nav {
-  grid-column: span 9;
+  display: flex;
+  padding: 2% 6%;
+  justify-content:space-between;
+  align-items: center;
+  grid-column: span 6;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  color : #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
 }
 
 nav a {
@@ -67,7 +106,7 @@ nav li {
 
 nav li a {
   background-color: /*#8CCAF9*/#918D8D;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 48px;
   text-decoration: none;
   display: block;
@@ -93,7 +132,7 @@ section {
 }
 
 section h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 48px;
   margin: 0;
   padding: 0;
@@ -101,19 +140,28 @@ section h2 {
   border-bottom: 3px solid black;
 }
 
+
+
 footer {
-  grid-column: span 12;
-  background-color: /*#8CCAF9;*/#918D8D;
-  padding: 6px;
-  margin-top: 24px;
-  font-size: 24px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #8A8989;
+  color: white;
   text-align: center;
-  box-shadow: 5px 5px 0 black;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .gallery {
